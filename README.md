@@ -1,6 +1,6 @@
 # Latentti GPTs - Käyttöohje
 
-**Versio:** 1.1
+**Versio:** 2.0
 **Päivitetty:** Joulukuu 2025
 **Tekijä:** Ari Hietamäki / Latentti.fi
 
@@ -18,9 +18,42 @@ Custom GPT on OpenAI:n ChatGPT:ssä räätälöity AI-assistentti, jolla on:
 
 ---
 
-## Custom GPT:n erikoisominaisuudet (vs. Gemini Gems)
+## Custom GPT vs. Gemini Gems - Ominaisuusvertailu
 
-Custom GPT:issä on merkittäviä lisäominaisuuksia, joita Geminin Gemeissä ei ole:
+Molemmat alustat tarjoavat kattavat ominaisuudet. Tässä vertailu:
+
+### Ominaisuusvertailu
+
+| Ominaisuus | ChatGPT GPT | Gemini Gem | Huomiot |
+|------------|:-----------:|:----------:|---------|
+| **Code Execution** | ✅ Python | ✅ Python | Molemmat tukevat |
+| **File Upload** | ✅ | ✅ | PDF, Excel, Word, CSV |
+| **Web Search** | ✅ Web Browsing | ✅ Sisäänrakennettu | Molemmat hakevat netistä |
+| **Image Generation** | ✅ DALL-E | ❌ Imagen (rajoitettu) | GPT:ssä parempi |
+| **Deep Research** | ❌ | ✅ (10/kk) | Vain Geminissä |
+| **Google Workspace** | ⚠️ Actions | ✅ Natiivi (@Gmail, @Drive) | Geminissä parempi |
+| **YouTube-analyysi** | ⚠️ Rajoitettu | ✅ @YouTube | Geminissä parempi |
+| **Custom Actions/API** | ✅ | ⚠️ Rajoitettu | GPT:ssä parempi |
+| **Jakaminen** | ✅ Linkki + GPT Store | ❌ Ei suoraa jakoa | GPT:ssä parempi |
+| **Konteksti-ikkuna** | 128K tokens | 1M tokens | Geminissä suurempi |
+
+### Kumpi valita?
+
+**Valitse ChatGPT GPT kun:**
+- Tarvitset DALL-E kuvanluontia (markkinointi)
+- Haluat jakaa GPT:n helposti muille
+- Tarvitset custom API-integraatioita (Actions)
+- Käytät jo ChatGPT Plus -tilausta
+
+**Valitse Gemini Gem kun:**
+- Käytät Google Workspacea (Gmail, Drive, Docs)
+- Tarvitset Deep Research -tutkimuksia
+- Haluat analysoida YouTube-videoita
+- Käsittelet erittäin pitkiä dokumentteja (1M konteksti)
+
+---
+
+## Custom GPT:n erikoisominaisuudet
 
 ### 1. Capabilities (Sisäänrakennetut kyvyt)
 
@@ -28,7 +61,7 @@ Custom GPT:issä on merkittäviä lisäominaisuuksia, joita Geminin Gemeissä ei
 |------------|--------|-------|
 | **Web Browsing** | Reaaliaikainen tiedonhaku internetistä | Ajantasainen kilpailija-analyysi, markkinadata |
 | **Code Interpreter & Data Analysis** | Python-koodin suoritus, data-analyysi | Talousmallit, kaaviot, Excel-analyysit |
-| **DALL-E Image Generation** | AI-kuvien luonti | Markkinointimateriaalit, visualisoinnit |
+| **DALL-E Image Generation** | AI-kuvien luonti | Markkinointimateriaalit, kampanjakuvat |
 
 ### 2. Knowledge (Tietopohja)
 
@@ -180,7 +213,10 @@ Kyllä. Avaa GPT → **Edit GPT** (kolme pistettä -valikosta) → muokkaa ohjei
 Kyllä! Tallennusvaiheessa valitse **Anyone with a link** ja jaa linkki. Voit myös julkaista GPT:n GPT Storessa.
 
 ### Mikä ero on Geminin Gemeihin?
-Toiminnallisuus on sama. Custom GPT:t toimivat ChatGPT:ssä, Gemit Geminissä. Voit käyttää samoja ohjeita molemmissa - ohjeiden sisältö on yhteensopiva.
+Molemmat tarjoavat samat perusominaisuudet (Code Execution, File Upload, Web Search). Erot:
+- **GPT:ssä parempi:** DALL-E kuvanluonti, jakaminen, Custom Actions
+- **Geminissä parempi:** Deep Research, Google Workspace -integraatio, @YouTube
+- Ohjeiden sisältö on yhteensopiva - voit käyttää samaa pohjaa molemmissa
 
 ---
 
