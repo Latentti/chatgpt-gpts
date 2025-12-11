@@ -98,6 +98,7 @@ Enterprise/Plus-käyttäjät voivat valita mallin:
 | **Business Strategy Consultant** | **KRIITTINEN** | Suositeltu | - | Suositeltu |
 | **Financial Analyst** | Suositeltu | **KRIITTINEN** | - | **KRIITTINEN** |
 | **Marketing Strategist** | **KRIITTINEN** | Suositeltu | **KRIITTINEN** | Suositeltu |
+| **HR Advisor** | **KRIITTINEN** | Suositeltu | - | **KRIITTINEN** |
 
 ### Miksi nämä valinnat?
 
@@ -116,6 +117,11 @@ Enterprise/Plus-käyttäjät voivat valita mallin:
 - DALL-E KRIITTINEN → Kampanjakuvat, some-materiaalit, visualisoinnit
 - Code Interpreter → Markkinointianalytiikka, dashboardit
 - Knowledge → Brändiohjeistukset, kampanjahistoria
+
+**HR Advisor:**
+- Web Browsing KRIITTINEN → Finlex-lainsäädäntö, TES-haku, HR-trendit
+- Knowledge KRIITTINEN → Yrityksen HR-käsikirja, TES:it, työlainsäädäntö
+- Code Interpreter → HR-metriikat, palkka-analyysit, henkilöstödata
 
 ---
 
@@ -172,6 +178,12 @@ Enterprise/Plus-käyttäjät voivat valita mallin:
 - "Help me define customer segments for [palvelu]"
 - "Create a growth strategy to scale from X to Y customers"
 
+**HR Advisor:**
+- "Suunnittele perehdytysohjelma uusille työntekijöille"
+- "Miten toteutetaan YT-neuvottelut oikein?"
+- "Laadi suorituksen johtamisen järjestelmä OKR-mallilla"
+- "Analysoi henkilöstön vaihtuvuutta ja ehdota toimenpiteitä"
+
 ### Vinkkejä tehokkaaseen käyttöön
 
 | Vinkki | Esimerkki |
@@ -190,6 +202,7 @@ Enterprise/Plus-käyttäjät voivat valita mallin:
 | **Business Strategy Consultant** | `Business-Strategy-Consultant-GPT.md` | Strateginen suunnittelu, kilpailija-analyysi, SWOT, Porter's Five Forces |
 | **Financial Analyst** | `Financial-Analyst-GPT.md` | Talousennusteet, arvonmääritys, unit economics, ROI-analyysi |
 | **Marketing Strategist** | `Marketing-Strategist-GPT.md` | Go-to-market, growth hacking, brand positioning, AARRR-metriikat |
+| **HR Advisor** | `HR-Advisor-GPT.md` | Henkilöstöstrategia, suorituksen johtaminen, työlainsäädäntö, TES, organisaation kehittäminen |
 
 ---
 
